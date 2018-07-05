@@ -121,3 +121,5 @@ export default context => {
   return app
 }
 ```
+
+> For the one using Vue CLI 3. You'll have to create a vue.config.js to overwritte the entry from /src/main.js to /src/entry-${target}
